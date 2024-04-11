@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/header'
 import Footer from './components/Footer.jsx'
 import Food from './components/Food.jsx'
+import Card from './components/Card.jsx'
 
 // function App() {
 //   return (
@@ -15,6 +16,7 @@ function App(){
   return(
     <div>
       <Header />
+      <Card />
       <Food />
       <Footer />
     </div>
